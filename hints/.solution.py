@@ -60,11 +60,7 @@ class cipherText:
             if not isinstance(i, (int, float)):
                 stringOut = stringOut + i
             else:
-                if isinstance(i, int):
-                    formatted_num = f"-{i:03d}-"
-                else:
-                    formatted_num = f"-{int(i):03d}-"
-                stringOut = stringOut + formatted_num
+                stringOut = stringOut + "-" + str(i) + "-"
         return stringOut
 
     def doneCheck(self):
