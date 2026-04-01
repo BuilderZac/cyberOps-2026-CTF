@@ -12,5 +12,5 @@ for i in range(int(input("copys:"))):
     # Encoding Flag
     temFlag = list(flag)
     for x in range(length):
-        temFlag[x] = (ord(temFlag[x]) * key[x]) % 256
+        temFlag[x] = (ord(temFlag[x]) * key[x])
     print(temFlag)
