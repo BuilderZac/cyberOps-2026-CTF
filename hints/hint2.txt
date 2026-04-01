@@ -1,0 +1,5 @@
+All the cipher texts use the same key numbers.
+You know the flag has FLAG{} in it.
+Get the list of known numbers used to encode the flag & reverse the linear operations with them.
+At the very least you can fill in FLAG{} making it so some numbers for each cipher text are consumed.
+Each number is only used once so maybe comparing the remaining numbers will bear fruit.

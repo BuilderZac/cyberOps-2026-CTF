@@ -1,0 +1,3 @@
+To solve this examine the cipher used.
+It is purly linear and all numbers in the key can be found.
+Just the order is unknown.
